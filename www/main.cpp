@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 
-void _array() {
+int main() {
     /*
     1. if(condition){}
     1. while(condition){}
@@ -14,15 +14,6 @@ void _array() {
         arr[n] = n + 10;
     
     cout << arr[5] << endl;
-}
-
-void _pointer() {
-    
-}
-
-int main() {
-    _array();
-    _pointer();
     
     return 0;
 }
