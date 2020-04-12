@@ -11,9 +11,20 @@ int main() {
     
     int arr[10];
     for(int n = 0; n < 10; n++)
-        arr[n] = n + 10;
+    arr[n] = n;
+
+    cout << arr[0] << endl;
+    int* ptr = arr + 5;
+    cout << *ptr << endl;
     
-    cout << arr[5] << endl;
+    short var = 0b0000000100000010;
+    short* a = &var;
+    char* b = (char*)&var;
+    
+    printf("%d, %d\n", *a, *b);
+    
+    *b = 0b00000100;
+    printf("%d, %d\n", *a, *b);
     
     return 0;
 }
