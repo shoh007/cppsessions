@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 
-int main() {
+int main_0() {
     /*
     1. if(condition){}
     1. while(condition){}
