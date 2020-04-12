@@ -3,7 +3,14 @@
 using namespace std;
 
 void _array() {
-    cout << "Hello World" << endl;
+    int arr[10];
+    /*
+    
+    1. if(condition){}
+    1. while(condition){}
+    2. for(init; condition; increment) {}
+     
+     */
 }
 
 void _pointer() {
